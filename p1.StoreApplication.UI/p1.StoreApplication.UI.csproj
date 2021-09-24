@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>306e3926-468b-4fde-9a4f-f0c13f159b8f</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\p1.StoreApplication.Logic\p1.StoreApplication.Logic.csproj" />
+    <ProjectReference Include="..\p1.StoreApplication.Models\p1.StoreApplication.Models.csproj" />
+  </ItemGroup>
+
+</Project>
